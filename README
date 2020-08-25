@@ -1,3 +1,14 @@
+Notes for my version on ifarm:
+setup root
+setup cernlib/2005
+./run_externals.sh
+./make_grid (use test.inp for the input grid)
+./externals_2020
+./make_rc_dat test.out <desired outputFilename.dat>
+
+outputFilename.dat is located in output/rad-corr-data/
+File format is: E0, W2, theta, Sigma Born, Sigma Rad, Correction factor to re-weight monte carlo
+---------------------------------------------
 externals_2017.f
   -Program to calculate measured cross sections
   -Input files
